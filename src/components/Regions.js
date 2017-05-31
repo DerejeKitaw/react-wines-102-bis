@@ -47,9 +47,6 @@ export class RegionsPage extends Component {
   }
 
   onSelectRegion = (region) => {
-    const root = window.location.hostname === 'react-bootcamp.github.io'
-      ? '/react-wines-102-bis/'
-      : '/';
     this.props.history.push({
       pathname: `/regions/${region}`
     });

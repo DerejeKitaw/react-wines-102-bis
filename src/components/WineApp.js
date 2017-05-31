@@ -15,11 +15,8 @@ class _WineApp extends Component {
 
   goHome = (e) => {
     e.preventDefault();
-    const root = window.location.hostname === 'react-bootcamp.github.io'
-      ? '/react-wines-102-bis/'
-      : '/';
     this.props.history.push({
-      pathname: `${root}`
+      pathname: `/`
     });
   }
 
