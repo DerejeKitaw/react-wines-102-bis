@@ -58,7 +58,7 @@ export class WineListPage extends Component {
       : '/';
     const region = this.props.match.params.regionId;
     this.props.history.push({
-      pathname: `${root}regions/${region}/wines/${id}`
+      pathname: `/regions/${region}/wines/${id}`
     });
   }
 
