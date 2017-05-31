@@ -51,7 +51,7 @@ export class RegionsPage extends Component {
       ? '/react-wines-102-bis/'
       : '/';
     this.props.history.push({
-      pathname: `${root}regions/${region}`
+      pathname: `/regions/${region}`
     });
   }
 
