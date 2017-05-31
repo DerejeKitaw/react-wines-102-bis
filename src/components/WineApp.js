@@ -4,10 +4,6 @@ import { RegionsPage, WineListPage, WinePage, NotFound } from '.';
 
 class _WineApp extends Component {
 
-  static contextTypes = {
-    router: PropTypes.object
-  };
-
   goBack = (e) => {
     e.preventDefault();
     this.props.history.goBack();

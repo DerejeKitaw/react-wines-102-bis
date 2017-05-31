@@ -3,6 +3,7 @@ import { Loader } from '.';
 import * as WinesService from '../services/Wines';
 
 export class WineList extends Component {
+
   onSelectWine = (e, wineId) => {
     e.preventDefault();
     this.props.onSelectWine(wineId);
@@ -31,10 +32,7 @@ export class WineList extends Component {
 }
 
 export class WineListPage extends Component {
-  static contextTypes = {
-    router: PropTypes.object
-  };
-
+  
   state = {
     loading: false,
     wines: []

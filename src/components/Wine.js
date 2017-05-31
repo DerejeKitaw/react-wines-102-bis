@@ -38,10 +38,6 @@ export class Wine extends Component {
 
 export class WinePage extends Component {
 
-  static contextTypes = {
-    router: PropTypes.object
-  };
-
   state = {
     loading: false,
     selectedWine: null,
