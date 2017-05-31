@@ -24,7 +24,7 @@ class _WineApp extends Component {
   }
 
   render() {
-    const displayButton = window.location.pathname === '/' || window.location.pathname === '/react-wines-102/'
+    const displayButton = window.location.pathname === '/' || window.location.pathname === '/react-wines-102-bis/'
       ? false
       : true;
     return (

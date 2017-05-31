@@ -12,7 +12,7 @@ if (!window.Symbol) {
 }
 
 const root = window.location.hostname === 'react-bootcamp.github.io'
-  ? '/react-wines-102/'
+  ? '/react-wines-102-bis/'
   : '/';
 
 ReactDOM.render((

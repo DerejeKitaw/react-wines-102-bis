@@ -54,7 +54,7 @@ export class WineListPage extends Component {
 
   onSelectWine = (id) => {
     const root = window.location.hostname === 'react-bootcamp.github.io'
-      ? '/react-wines-102/'
+      ? '/react-wines-102-bis/'
       : '/';
     const region = this.props.match.params.regionId;
     this.props.history.push({
