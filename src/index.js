@@ -11,12 +11,12 @@ if (!window.Symbol) {
   window.Symbol = Symbol; // yeah, polyfill all the things !!!
 }
 
-const root = window.location.hostname === 'react-bootcamp.github.io'
-  ? '/react-wines-102-bis/'
-  : '/';
+const root =
+  window.location.hostname === 'react-bootcamp.github.io' ? '/react-wines-102-bis/' : '/';
 
-ReactDOM.render((
+ReactDOM.render(
   <Router basename={root}>
     <WineApp />
-  </Router>
-), document.getElementById('root'));
+  </Router>,
+  document.getElementById('root')
+);
